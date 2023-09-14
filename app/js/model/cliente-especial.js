@@ -1,6 +1,6 @@
 class ClienteEspecial extends Cliente {
-    constructor(nome, cpf, conta) {
-        super(nome, cpf, conta);
+    constructor(nome, cpf) {
+        super(nome, cpf);
         this.clientes = new Array();
     }
     inserir(cliente) {
