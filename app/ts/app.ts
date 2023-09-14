@@ -22,9 +22,9 @@ const clientes: Clientes = new Clientes()
 const c2 = new Conta('2', 200);
 const c3 = new Conta('3', 300)
 
-const cli1: Cliente = new Cliente("matheus", "111.111.111-11", c1)
-const cli2: Cliente = new Cliente("diogo", "222.222.222-22", c2);
-const cli3: Cliente = new Cliente("alex", "333.333.333-33", c3);
+const cli1: Cliente = new Cliente("matheus", "111.111.111-11")
+const cli2: Cliente = new Cliente("diogo", "222.222.222-22");
+const cli3: Cliente = new Cliente("alex", "333.333.333-33");
 
 clientes.inserir(cli1)
 clientes.inserir(cli2)
