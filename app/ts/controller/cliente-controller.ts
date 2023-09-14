@@ -17,12 +17,8 @@ class ClienteController {
 
         const nome = this.inputNome.value
         const cpf = this.inputCPF.value
-        const numeroConta = this.inputConta.value
 
-        const contas = new Contas()
-        const conta = contas.pesquisar(numeroConta)
-
-        const novoCliente = new Cliente(nome, cpf, conta)
+        const novoCliente = new Cliente(nome, cpf)
 
         this.inserirClienteNoHTML(novoCliente)
     }
