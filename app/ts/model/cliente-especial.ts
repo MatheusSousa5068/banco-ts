@@ -1,8 +1,8 @@
 class ClienteEspecial  extends Cliente{
     private clientes: Array<Cliente>
 
-    constructor(nome: string, cpf: string, conta: Conta) {
-        super(nome, cpf, conta)
+    constructor(nome: string, cpf: string) {
+        super(nome, cpf)
         this.clientes = new Array<Cliente>();
     }
 
